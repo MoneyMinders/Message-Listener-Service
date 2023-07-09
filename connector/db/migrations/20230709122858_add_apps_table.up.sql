@@ -1,0 +1,5 @@
+
+CREATE TABLE IF NOT EXISTS apps (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR NOT NULL
+);
